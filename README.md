@@ -1,2 +1,2 @@
 # events-bus
-Represents dictionary that aggregates events between publishers and subscribers.
+Represents dictionary with events, linked between multiple publishers and subscribers.
