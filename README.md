@@ -7,7 +7,7 @@ Quick start:
 	var bus = new EventsBus();
 	
 	// subscribe to custom event:
-	bus.Subscribe<MyEvent>(e => Console.Write("My event is triggerred: " + e));
+	bus.Subscribe<MyEvent>(e => Console.Write("My event is triggered: " + e));
 	
 	// publish event:
 	bus.Publish(new MyEvent());
